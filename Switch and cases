@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+    int opt;
+    printf("Enter the option:");
+    scanf("%d",&opt);
+    switch(opt)
+    {
+        case 1:
+        printf("You will be having Pizza");
+        printf("\nAt Rs-277");
+        break;
+        case 2:
+        printf("You will be having Burger");
+        printf("\nAt Rs-128");
+        break;
+        case 3:
+        printf("You will be having Pasta");
+        printf("\nAt Rs-199");
+        break;
+        case 4:
+        printf("You will be having French Fries");
+        printf("\nAt Rs-99");
+        break;
+        case 5:
+        printf("You will be having Cheese Grilled Sandwich");
+        printf("\nAt Rs-205");
+        break;
+        default:
+        printf("Option is not availabel");
+    }
+        
+
+    return 0;
+}
